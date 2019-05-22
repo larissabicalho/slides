@@ -1,0 +1,75 @@
+
+body {
+  background-image: url('inside.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#paineis-sobre {
+  padding: 0;
+}
+
+.panel-body{
+  background: url('meio.jpg');
+}
+  
+.panel-heading {
+  background-image: url('meio.jpg');
+}
+
+.row {
+  position: relative;
+  top: 20%;
+  padding: 120px;
+}
+
+#placa-nome{
+  top: 0px;
+  position:fixed;
+  width: 25%;
+  height: 20%;
+  left: 35%;
+  margin:0px;
+  padding: 0px;
+}
+
+#inicio{
+  position:fixed;
+  width: 25%;
+  height: 20%;
+  left: 42%;
+  margin:0px;
+  padding: 0px;
+  top:10%;
+  font-size: 30px;
+}
+
+.arrow{
+  width: 35px;
+  height: 35px;
+  position:fixed;
+  top:50%;
+  z-index:1;
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+  cursor:pointer;
+  transition:border-color 0.3s ease-out;
+}
+
+.arrow:hover{
+	border-color:#eb4758
+}
+
+.arrow-left{
+  left:20px;
+  transform:rotate(225deg);
+}
+
+.arrow-right{
+  right:20px;
+  transform:rotate(45deg);
+}
