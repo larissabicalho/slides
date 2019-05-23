@@ -21,14 +21,64 @@ body {
   background-image: url('meio.jpg');
 }
 
-.primeira {
+.row {
   position: relative;
-  top: 15%;
-  padding: 120px;
-  left:35%;
+  top: 60%;
+  padding-right: 120px;
+  left:30%;
+  height:50px;
 }
 
+#word {
+  color:rgb(247, 25, 210);
+}
 
+#code{
+  width: 60%;
+  height: 50%;
+  margin: auto;
+  display: block;
+}
+
+#script-texto{
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+
+}
+#tittle{
+  color:maroon;
+  text-align: center;
+}
+
+#teste{
+  position: fixed;
+  padding:120px;
+  
+}
+
+#code2{
+  width: 100%;
+  height: 50%;
+  margin-top: 20px;
+  display: block;
+}
+
+#exemplo{
+  height: 40%;
+  top:86%;
+  left: 86%;
+  position: fixed;
+  color:white;
+  font-size:35px;
+}
+
+#cal{
+  height: 40%;
+  top:67%;
+  left: 80%;
+  position: fixed;
+}
 
 #placa-nome{
   top: 0px;
