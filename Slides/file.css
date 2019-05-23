@@ -28,6 +28,13 @@ body {
   left:30%;
   height:50px;
 }
+#hp {
+  height: 60%;
+  top:50%;
+  left: -4%;
+  position: fixed;
+}
+
 
 #word {
   color:rgb(247, 25, 210);
